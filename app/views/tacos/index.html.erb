@@ -1,0 +1,24 @@
+<h1>Tacos are delish! </h1>
+
+<!--way to comment-->
+
+
+<!--Ruby code-->
+<%
+tacos = ["Carnitas", "Al Pastor", "Fish", "Mushroom"]
+%>
+
+
+<!--equal next to percentage-->
+<p> There are <%= tacos.count %> tacos: </p>
+
+
+
+
+<!--dynamic way-->
+<ul>
+    <%for taco in tacos%>
+    <li><%=taco%></li>
+    <%end%>
+   
+</ul>
